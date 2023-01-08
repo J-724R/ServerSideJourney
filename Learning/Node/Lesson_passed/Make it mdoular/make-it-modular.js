@@ -1,4 +1,4 @@
-const filterFn = require('./mymodule');
+const filterFn = require('../../mymodule');
 const dir = process.argv[2]
 const filterStr = process.argv[3]
 
