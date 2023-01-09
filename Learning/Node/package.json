@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "concat-stream": "^2.0.0",
-    "learnyounode": "^4.2.2"
+    "learnyounode": "^4.2.2",
+    "through2-map": "^3.0.0"
   }
 }
