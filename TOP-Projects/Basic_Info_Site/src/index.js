@@ -11,11 +11,11 @@ const pageNotFound = fs.readFileSync("404.html", (err, data) => {
 http
   .createServer((req, res) => {
     if (req) count++;
-    const fileName =
-      req.url === ("" || "/") ? "./index.html" : `.${req.url}.html`;
-
     console.log(`request number: ${count}`);
     console.log("fileName: " + fileName);
+
+    const fileName =
+      req.url === ("" || "/") ? "./index.html" : `.${req.url}.html`;
 
     fs.readFile(fileName, (err, data) => {
       if (err) {
