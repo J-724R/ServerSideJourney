@@ -1,0 +1,23 @@
+{
+  "name": "serversidejourney",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-724R/ServerSideJourney.git"
+  },
+  "keywords": [],
+  "author": "J 724R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/J-724R/ServerSideJourney/issues"
+  },
+  "homepage": "https://github.com/J-724R/ServerSideJourney#readme"
+}
